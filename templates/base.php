@@ -13,10 +13,8 @@
     <header>
         <?php include 'common/header.php'; ?>
     </header>
-    <div class='container'>
-        <?php startblock('content') ?>
-        <?php endblock() ?>
-    </div>
+    <?php startblock('content') ?>
+    <?php endblock() ?>
     <footer>
         <?php include 'common/footer.php'; ?>
     </footer>

@@ -18,6 +18,14 @@
             <input type="email" class="form-control" id="email" placeholder="Email">
         </div>
         <div class="form-group">
+            <label for="category" class="control-label">Category:</label>
+            <select class="form-control" id="catgory">
+                <option value="Administrator">Administrator</option>
+                <option value="Super User">Super User</option>
+                <option value="Normal User">Normal User</option>
+            </select>
+        </div>
+        <div class="form-group">
             <label for="password1" class="control-label">Password:</label>
             <input type="password" class="form-control" id="password1" placeholder="Password">
         </div>
