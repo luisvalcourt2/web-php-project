@@ -3,9 +3,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>G3 | <?php startblock('title') ?><?php endblock() ?></title>
-    <link rel="stylesheet" href="/web-php-project/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/web-php-project/static/css/app.css">
+    <link rel="stylesheet" href="/xampp/web-php-project/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/xampp/web-php-project/static/css/app.css">
     <?php startblock('extra_css') ?>
     <?php endblock() ?>
 </head>
@@ -18,9 +20,9 @@
     <footer>
         <?php include 'common/footer.php'; ?>
     </footer>
-    <script src="/web-php-project/static/js/jquery.js"></script>    
-    <script src="/web-php-project/static/js/bootstrap.min.js"></script>
-    <script src="/web-php-project/static/js/app.js"></script>
+    <script src="/xampp/web-php-project/static/js/jquery.js"></script>    
+    <script src="/xampp/web-php-project/static/js/bootstrap.min.js"></script>
+    <script src="/xampp/web-php-project/static/js/app.js"></script>
     <?php startblock('extra_js') ?>
     <?php endblock() ?>
 </body>

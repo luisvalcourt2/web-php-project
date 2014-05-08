@@ -1,41 +1,45 @@
 <?php include '../base.php'; ?>
 <?php startblock('title') ?>Create user<?php endblock() ?>
 <?php startblock('content') ?>
-<h1>Create user</h1>
-<br>
-<div class="col-sm-5">
-    <form role="form" method="post" action="#">
-        <div class="form-group">
-            <label for="user_id" class="control-label">User Id:</label>
-            <input type="text" class="form-control" id="user_id" placeholder="User Id">
-        </div>
-        <div class="form-group">
-            <label for="user_name" class="control-label">Username:</label>
-            <input type="text" class="form-control" id="user_name" placeholder="Username">
-        </div>
-        <div class="form-group">
-            <label for="email" class="control-label">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Email">
-        </div>
-        <div class="form-group">
-            <label for="category" class="control-label">Category:</label>
-            <select class="form-control" id="catgory">
-                <option value="Administrator">Administrator</option>
-                <option value="Super User">Super User</option>
-                <option value="Normal User">Normal User</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="password1" class="control-label">Password:</label>
-            <input type="password" class="form-control" id="password1" placeholder="Password">
-        </div>
-        <div class="form-group">
-            <label for="password2" class="control-label">Password (again):</label>
-            <input type="password" class="form-control" id="password2" placeholder="Password (again)">
-        </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-default">Create</button>
-        </div>
-    </form>
+<div class="container">
+   <div class="page-header">
+  <center><h1>Create a New User</h1>
+  <h4>Please fill out the form</h4></center>
+   </div>
 </div>
+
+        
+        <div class="col-sm-6 col-sm-offset-3">
+            <form role="form"  id="search">
+               <div class="form-group">
+                    <label for="state">User ID</label>
+                    <input type="text" class="form-control" id="ID" placeholder="User ID">
+                </div>
+                <div class="form-group">
+                    <label for="fist-name">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="lasts-name">Password</label>
+                    <input type="text" class="form-control" id="password" placeholder="Passsword">
+                </div>
+                <div class="form-group">
+                    
+                    <input type="text" class="form-control" id="verify-password" placeholder="Password">
+                </div>
+              <div class="form-group">
+                    <label for="accountType">Account Type</label>
+                    <small>
+                        <input type="text" class="form-control" id="account-type" placeholder="Account Type">
+                </div>
+            </br>
+        </br>
+        <center>
+                <div class="form-group" id="button">
+                <button type="submit" class="btn btn-success">Create</button>
+                <button type="clear" class="btn btn-danger">Reset</button>
+            </div>
+        </center>
+            </form>
+          </div>
 <?php endblock() ?>
